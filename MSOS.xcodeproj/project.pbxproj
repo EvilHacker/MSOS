@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F650486A84900D96B5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		9092C984125E12F8001254D5 /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9092C91C125E12F8001254D5 /* LinkedList.cpp */; };
+		9092C985125E12F8001254D5 /* switchTasks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9092C924125E12F8001254D5 /* switchTasks.cpp */; };
+		9092C98B125E12F8001254D5 /* BlockedTaskTimeout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9092C92F125E12F8001254D5 /* BlockedTaskTimeout.cpp */; };
+		9092C98C125E12F8001254D5 /* IdleTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9092C931125E12F8001254D5 /* IdleTask.cpp */; };
+		9092C98D125E12F8001254D5 /* IntertaskBroadcastEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9092C935125E12F8001254D5 /* IntertaskBroadcastEvent.cpp */; };
+		9092C98E125E12F8001254D5 /* IntertaskCondition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9092C937125E12F8001254D5 /* IntertaskCondition.cpp */; };
+		9092C98F125E12F8001254D5 /* IntertaskEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9092C939125E12F8001254D5 /* IntertaskEvent.cpp */; };
+		9092C990125E12F8001254D5 /* IntertaskQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9092C93B125E12F8001254D5 /* IntertaskQueue.cpp */; };
+		9092C991125E12F8001254D5 /* LockedSection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9092C93D125E12F8001254D5 /* LockedSection.cpp */; };
+		9092C992125E12F8001254D5 /* Mutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9092C940125E12F8001254D5 /* Mutex.cpp */; };
+		9092C993125E12F8001254D5 /* PriorityBoost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9092C942125E12F8001254D5 /* PriorityBoost.cpp */; };
+		9092C994125E12F8001254D5 /* rtosTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9092C944125E12F8001254D5 /* rtosTest.cpp */; };
+		9092C995125E12F8001254D5 /* Semaphore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9092C945125E12F8001254D5 /* Semaphore.cpp */; };
+		9092C996125E12F8001254D5 /* Task.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9092C948125E12F8001254D5 /* Task.cpp */; };
+		9092C997125E12F8001254D5 /* TaskBlocker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9092C94A125E12F8001254D5 /* TaskBlocker.cpp */; };
+		9092C998125E12F8001254D5 /* TaskGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9092C94C125E12F8001254D5 /* TaskGroup.cpp */; };
+		9092C999125E12F8001254D5 /* TaskScheduler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9092C94E125E12F8001254D5 /* TaskScheduler.cpp */; };
+		9092C99A125E12F8001254D5 /* TaskSynchronizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9092C950125E12F8001254D5 /* TaskSynchronizer.cpp */; };
+		9092C99B125E12F8001254D5 /* TimeInterval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9092C952125E12F8001254D5 /* TimeInterval.cpp */; };
+		9092C99C125E12F8001254D5 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9092C954125E12F8001254D5 /* Timer.cpp */; };
+		9092C99D125E12F8001254D5 /* UninterruptableSection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9092C957125E12F8001254D5 /* UninterruptableSection.cpp */; };
+		9092C99E125E12F8001254D5 /* UnpreemptableSection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9092C959125E12F8001254D5 /* UnpreemptableSection.cpp */; };
+		90F426F812653AE900D8D5F1 /* PriorityMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90F426F612653AE900D8D5F1 /* PriorityMutex.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8DD76F6C0486A84900D96B5E /* MSOS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MSOS; sourceTree = BUILT_PRODUCTS_DIR; };
+		9092C91B125E12F8001254D5 /* Link.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Link.h; sourceTree = "<group>"; };
+		9092C91C125E12F8001254D5 /* LinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
+		9092C91D125E12F8001254D5 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		9092C91E125E12F8001254D5 /* cPrimitiveTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cPrimitiveTypes.h; sourceTree = "<group>"; };
+		9092C91F125E12F8001254D5 /* endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = endian.h; sourceTree = "<group>"; };
+		9092C920125E12F8001254D5 /* memoryUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memoryUtilities.h; sourceTree = "<group>"; };
+		9092C923125E12F8001254D5 /* 80x86Interrupts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 80x86Interrupts.h; sourceTree = "<group>"; };
+		9092C924125E12F8001254D5 /* switchTasks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = switchTasks.cpp; sourceTree = "<group>"; };
+		9092C925125E12F8001254D5 /* switchTasks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = switchTasks.h; sourceTree = "<group>"; };
+		9092C927125E12F8001254D5 /* exceptionHandlers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exceptionHandlers.h; sourceTree = "<group>"; };
+		9092C928125E12F8001254D5 /* exceptionHandlersAsm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = exceptionHandlersAsm.s; sourceTree = "<group>"; };
+		9092C929125E12F8001254D5 /* exceptionHandlersC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = exceptionHandlersC.cpp; sourceTree = "<group>"; };
+		9092C92A125E12F8001254D5 /* interrupts.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = interrupts.s; sourceTree = "<group>"; };
+		9092C92B125E12F8001254D5 /* RemoteDebuggerAgent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoteDebuggerAgent.cpp; sourceTree = "<group>"; };
+		9092C92C125E12F8001254D5 /* RemoteDebuggerAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteDebuggerAgent.h; sourceTree = "<group>"; };
+		9092C92D125E12F8001254D5 /* switchTasks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = switchTasks.h; sourceTree = "<group>"; };
+		9092C92E125E12F8001254D5 /* switchTasks.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = switchTasks.s; sourceTree = "<group>"; };
+		9092C92F125E12F8001254D5 /* BlockedTaskTimeout.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BlockedTaskTimeout.cpp; sourceTree = "<group>"; };
+		9092C930125E12F8001254D5 /* BlockedTaskTimeout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockedTaskTimeout.h; sourceTree = "<group>"; };
+		9092C931125E12F8001254D5 /* IdleTask.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IdleTask.cpp; sourceTree = "<group>"; };
+		9092C932125E12F8001254D5 /* IdleTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdleTask.h; sourceTree = "<group>"; };
+		9092C933125E12F8001254D5 /* InterruptHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterruptHandler.h; sourceTree = "<group>"; };
+		9092C934125E12F8001254D5 /* interrupts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interrupts.h; sourceTree = "<group>"; };
+		9092C935125E12F8001254D5 /* IntertaskBroadcastEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntertaskBroadcastEvent.cpp; sourceTree = "<group>"; };
+		9092C936125E12F8001254D5 /* IntertaskBroadcastEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntertaskBroadcastEvent.h; sourceTree = "<group>"; };
+		9092C937125E12F8001254D5 /* IntertaskCondition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntertaskCondition.cpp; sourceTree = "<group>"; };
+		9092C938125E12F8001254D5 /* IntertaskCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntertaskCondition.h; sourceTree = "<group>"; };
+		9092C939125E12F8001254D5 /* IntertaskEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntertaskEvent.cpp; sourceTree = "<group>"; };
+		9092C93A125E12F8001254D5 /* IntertaskEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntertaskEvent.h; sourceTree = "<group>"; };
+		9092C93B125E12F8001254D5 /* IntertaskQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntertaskQueue.cpp; sourceTree = "<group>"; };
+		9092C93C125E12F8001254D5 /* IntertaskQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntertaskQueue.h; sourceTree = "<group>"; };
+		9092C93D125E12F8001254D5 /* LockedSection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LockedSection.cpp; sourceTree = "<group>"; };
+		9092C93E125E12F8001254D5 /* LockedSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockedSection.h; sourceTree = "<group>"; };
+		9092C93F125E12F8001254D5 /* MemberTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberTask.h; sourceTree = "<group>"; };
+		9092C940125E12F8001254D5 /* Mutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mutex.cpp; sourceTree = "<group>"; };
+		9092C941125E12F8001254D5 /* Mutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mutex.h; sourceTree = "<group>"; };
+		9092C942125E12F8001254D5 /* PriorityBoost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PriorityBoost.cpp; sourceTree = "<group>"; };
+		9092C943125E12F8001254D5 /* PriorityBoost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriorityBoost.h; sourceTree = "<group>"; };
+		9092C944125E12F8001254D5 /* rtosTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtosTest.cpp; sourceTree = "<group>"; };
+		9092C945125E12F8001254D5 /* Semaphore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Semaphore.cpp; sourceTree = "<group>"; };
+		9092C946125E12F8001254D5 /* Semaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Semaphore.h; sourceTree = "<group>"; };
+		9092C947125E12F8001254D5 /* sleep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sleep.h; sourceTree = "<group>"; };
+		9092C948125E12F8001254D5 /* Task.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Task.cpp; sourceTree = "<group>"; };
+		9092C949125E12F8001254D5 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		9092C94A125E12F8001254D5 /* TaskBlocker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TaskBlocker.cpp; sourceTree = "<group>"; };
+		9092C94B125E12F8001254D5 /* TaskBlocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskBlocker.h; sourceTree = "<group>"; };
+		9092C94C125E12F8001254D5 /* TaskGroup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TaskGroup.cpp; sourceTree = "<group>"; };
+		9092C94D125E12F8001254D5 /* TaskGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskGroup.h; sourceTree = "<group>"; };
+		9092C94E125E12F8001254D5 /* TaskScheduler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TaskScheduler.cpp; sourceTree = "<group>"; };
+		9092C94F125E12F8001254D5 /* TaskScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskScheduler.h; sourceTree = "<group>"; };
+		9092C950125E12F8001254D5 /* TaskSynchronizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TaskSynchronizer.cpp; sourceTree = "<group>"; };
+		9092C951125E12F8001254D5 /* TaskSynchronizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskSynchronizer.h; sourceTree = "<group>"; };
+		9092C952125E12F8001254D5 /* TimeInterval.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TimeInterval.cpp; sourceTree = "<group>"; };
+		9092C953125E12F8001254D5 /* TimeInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeInterval.h; sourceTree = "<group>"; };
+		9092C954125E12F8001254D5 /* Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		9092C955125E12F8001254D5 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		9092C956125E12F8001254D5 /* TimeValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeValue.h; sourceTree = "<group>"; };
+		9092C957125E12F8001254D5 /* UninterruptableSection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UninterruptableSection.cpp; sourceTree = "<group>"; };
+		9092C958125E12F8001254D5 /* UninterruptableSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UninterruptableSection.h; sourceTree = "<group>"; };
+		9092C959125E12F8001254D5 /* UnpreemptableSection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UnpreemptableSection.cpp; sourceTree = "<group>"; };
+		9092C95A125E12F8001254D5 /* UnpreemptableSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnpreemptableSection.h; sourceTree = "<group>"; };
+		9092C95C125E12F8001254D5 /* InterruptHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterruptHandler.h; sourceTree = "<group>"; };
+		9092C95D125E12F8001254D5 /* IntertaskBroadcastEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntertaskBroadcastEvent.h; sourceTree = "<group>"; };
+		9092C95E125E12F8001254D5 /* IntertaskCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntertaskCondition.h; sourceTree = "<group>"; };
+		9092C95F125E12F8001254D5 /* IntertaskEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntertaskEvent.h; sourceTree = "<group>"; };
+		9092C960125E12F8001254D5 /* IntertaskQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntertaskQueue.h; sourceTree = "<group>"; };
+		9092C961125E12F8001254D5 /* LockedSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockedSection.h; sourceTree = "<group>"; };
+		9092C962125E12F8001254D5 /* MemberTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberTask.h; sourceTree = "<group>"; };
+		9092C963125E12F8001254D5 /* multitaskingCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multitaskingCommon.h; sourceTree = "<group>"; };
+		9092C964125E12F8001254D5 /* Mutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mutex.h; sourceTree = "<group>"; };
+		9092C965125E12F8001254D5 /* Semaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Semaphore.h; sourceTree = "<group>"; };
+		9092C966125E12F8001254D5 /* sleep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sleep.h; sourceTree = "<group>"; };
+		9092C967125E12F8001254D5 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		9092C968125E12F8001254D5 /* TaskScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskScheduler.h; sourceTree = "<group>"; };
+		9092C969125E12F8001254D5 /* TaskSynchronizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskSynchronizer.h; sourceTree = "<group>"; };
+		9092C96A125E12F8001254D5 /* TimeInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeInterval.h; sourceTree = "<group>"; };
+		9092C96B125E12F8001254D5 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		9092C96C125E12F8001254D5 /* TimeValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeValue.h; sourceTree = "<group>"; };
+		9092C96D125E12F8001254D5 /* UninterruptableSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UninterruptableSection.h; sourceTree = "<group>"; };
+		9092C96E125E12F8001254D5 /* pointerArithmetic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pointerArithmetic.h; sourceTree = "<group>"; };
+		9092C970125E12F8001254D5 /* IntertaskBroadcastEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntertaskBroadcastEvent.cpp; sourceTree = "<group>"; };
+		9092C971125E12F8001254D5 /* IntertaskBroadcastEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntertaskBroadcastEvent.h; sourceTree = "<group>"; };
+		9092C972125E12F8001254D5 /* IntertaskEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntertaskEvent.cpp; sourceTree = "<group>"; };
+		9092C973125E12F8001254D5 /* IntertaskEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntertaskEvent.h; sourceTree = "<group>"; };
+		9092C974125E12F8001254D5 /* IntertaskQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntertaskQueue.cpp; sourceTree = "<group>"; };
+		9092C975125E12F8001254D5 /* IntertaskQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntertaskQueue.h; sourceTree = "<group>"; };
+		9092C976125E12F8001254D5 /* LockedSection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LockedSection.cpp; sourceTree = "<group>"; };
+		9092C977125E12F8001254D5 /* LockedSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockedSection.h; sourceTree = "<group>"; };
+		9092C978125E12F8001254D5 /* MemberTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberTask.h; sourceTree = "<group>"; };
+		9092C979125E12F8001254D5 /* Mutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mutex.cpp; sourceTree = "<group>"; };
+		9092C97A125E12F8001254D5 /* Mutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mutex.h; sourceTree = "<group>"; };
+		9092C97B125E12F8001254D5 /* Semaphore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Semaphore.cpp; sourceTree = "<group>"; };
+		9092C97C125E12F8001254D5 /* Semaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Semaphore.h; sourceTree = "<group>"; };
+		9092C97D125E12F8001254D5 /* Task.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Task.cpp; sourceTree = "<group>"; };
+		9092C97E125E12F8001254D5 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		9092C97F125E12F8001254D5 /* TaskScheduler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TaskScheduler.cpp; sourceTree = "<group>"; };
+		9092C980125E12F8001254D5 /* TaskScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskScheduler.h; sourceTree = "<group>"; };
+		9092C981125E12F8001254D5 /* TaskSynchronizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TaskSynchronizer.cpp; sourceTree = "<group>"; };
+		9092C982125E12F8001254D5 /* TaskSynchronizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskSynchronizer.h; sourceTree = "<group>"; };
+		9092C983125E12F8001254D5 /* TimeValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeValue.h; sourceTree = "<group>"; };
+		90F426F612653AE900D8D5F1 /* PriorityMutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PriorityMutex.cpp; sourceTree = "<group>"; };
+		90F426F712653AE900D8D5F1 /* PriorityMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriorityMutex.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* MSOS */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = MSOS;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7796FE84155DC02AAC07 /* main.cpp */,
+				9092C919125E12F8001254D5 /* common */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* MSOS */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9092C919125E12F8001254D5 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				9092C91A125E12F8001254D5 /* Collections */,
+				9092C91E125E12F8001254D5 /* cPrimitiveTypes.h */,
+				9092C91F125E12F8001254D5 /* endian.h */,
+				9092C920125E12F8001254D5 /* memoryUtilities.h */,
+				9092C921125E12F8001254D5 /* MsosMultitasking */,
+				9092C95B125E12F8001254D5 /* multitasking */,
+				9092C96E125E12F8001254D5 /* pointerArithmetic.h */,
+				9092C96F125E12F8001254D5 /* Win32Multitasking */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		9092C91A125E12F8001254D5 /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				9092C91B125E12F8001254D5 /* Link.h */,
+				9092C91C125E12F8001254D5 /* LinkedList.cpp */,
+				9092C91D125E12F8001254D5 /* LinkedList.h */,
+			);
+			path = Collections;
+			sourceTree = "<group>";
+		};
+		9092C921125E12F8001254D5 /* MsosMultitasking */ = {
+			isa = PBXGroup;
+			children = (
+				9092C922125E12F8001254D5 /* 80x86 */,
+				9092C926125E12F8001254D5 /* Arm */,
+				9092C92F125E12F8001254D5 /* BlockedTaskTimeout.cpp */,
+				9092C930125E12F8001254D5 /* BlockedTaskTimeout.h */,
+				9092C931125E12F8001254D5 /* IdleTask.cpp */,
+				9092C932125E12F8001254D5 /* IdleTask.h */,
+				9092C933125E12F8001254D5 /* InterruptHandler.h */,
+				9092C934125E12F8001254D5 /* interrupts.h */,
+				9092C935125E12F8001254D5 /* IntertaskBroadcastEvent.cpp */,
+				9092C936125E12F8001254D5 /* IntertaskBroadcastEvent.h */,
+				9092C937125E12F8001254D5 /* IntertaskCondition.cpp */,
+				9092C938125E12F8001254D5 /* IntertaskCondition.h */,
+				9092C939125E12F8001254D5 /* IntertaskEvent.cpp */,
+				9092C93A125E12F8001254D5 /* IntertaskEvent.h */,
+				9092C93B125E12F8001254D5 /* IntertaskQueue.cpp */,
+				9092C93C125E12F8001254D5 /* IntertaskQueue.h */,
+				9092C93D125E12F8001254D5 /* LockedSection.cpp */,
+				9092C93E125E12F8001254D5 /* LockedSection.h */,
+				9092C93F125E12F8001254D5 /* MemberTask.h */,
+				9092C940125E12F8001254D5 /* Mutex.cpp */,
+				9092C941125E12F8001254D5 /* Mutex.h */,
+				9092C942125E12F8001254D5 /* PriorityBoost.cpp */,
+				9092C943125E12F8001254D5 /* PriorityBoost.h */,
+				90F426F612653AE900D8D5F1 /* PriorityMutex.cpp */,
+				90F426F712653AE900D8D5F1 /* PriorityMutex.h */,
+				9092C944125E12F8001254D5 /* rtosTest.cpp */,
+				9092C945125E12F8001254D5 /* Semaphore.cpp */,
+				9092C946125E12F8001254D5 /* Semaphore.h */,
+				9092C947125E12F8001254D5 /* sleep.h */,
+				9092C948125E12F8001254D5 /* Task.cpp */,
+				9092C949125E12F8001254D5 /* Task.h */,
+				9092C94A125E12F8001254D5 /* TaskBlocker.cpp */,
+				9092C94B125E12F8001254D5 /* TaskBlocker.h */,
+				9092C94C125E12F8001254D5 /* TaskGroup.cpp */,
+				9092C94D125E12F8001254D5 /* TaskGroup.h */,
+				9092C94E125E12F8001254D5 /* TaskScheduler.cpp */,
+				9092C94F125E12F8001254D5 /* TaskScheduler.h */,
+				9092C950125E12F8001254D5 /* TaskSynchronizer.cpp */,
+				9092C951125E12F8001254D5 /* TaskSynchronizer.h */,
+				9092C952125E12F8001254D5 /* TimeInterval.cpp */,
+				9092C953125E12F8001254D5 /* TimeInterval.h */,
+				9092C954125E12F8001254D5 /* Timer.cpp */,
+				9092C955125E12F8001254D5 /* Timer.h */,
+				9092C956125E12F8001254D5 /* TimeValue.h */,
+				9092C957125E12F8001254D5 /* UninterruptableSection.cpp */,
+				9092C958125E12F8001254D5 /* UninterruptableSection.h */,
+				9092C959125E12F8001254D5 /* UnpreemptableSection.cpp */,
+				9092C95A125E12F8001254D5 /* UnpreemptableSection.h */,
+			);
+			path = MsosMultitasking;
+			sourceTree = "<group>";
+		};
+		9092C922125E12F8001254D5 /* 80x86 */ = {
+			isa = PBXGroup;
+			children = (
+				9092C923125E12F8001254D5 /* 80x86Interrupts.h */,
+				9092C924125E12F8001254D5 /* switchTasks.cpp */,
+				9092C925125E12F8001254D5 /* switchTasks.h */,
+			);
+			path = 80x86;
+			sourceTree = "<group>";
+		};
+		9092C926125E12F8001254D5 /* Arm */ = {
+			isa = PBXGroup;
+			children = (
+				9092C927125E12F8001254D5 /* exceptionHandlers.h */,
+				9092C928125E12F8001254D5 /* exceptionHandlersAsm.s */,
+				9092C929125E12F8001254D5 /* exceptionHandlersC.cpp */,
+				9092C92A125E12F8001254D5 /* interrupts.s */,
+				9092C92B125E12F8001254D5 /* RemoteDebuggerAgent.cpp */,
+				9092C92C125E12F8001254D5 /* RemoteDebuggerAgent.h */,
+				9092C92D125E12F8001254D5 /* switchTasks.h */,
+				9092C92E125E12F8001254D5 /* switchTasks.s */,
+			);
+			path = Arm;
+			sourceTree = "<group>";
+		};
+		9092C95B125E12F8001254D5 /* multitasking */ = {
+			isa = PBXGroup;
+			children = (
+				9092C95C125E12F8001254D5 /* InterruptHandler.h */,
+				9092C95D125E12F8001254D5 /* IntertaskBroadcastEvent.h */,
+				9092C95E125E12F8001254D5 /* IntertaskCondition.h */,
+				9092C95F125E12F8001254D5 /* IntertaskEvent.h */,
+				9092C960125E12F8001254D5 /* IntertaskQueue.h */,
+				9092C961125E12F8001254D5 /* LockedSection.h */,
+				9092C962125E12F8001254D5 /* MemberTask.h */,
+				9092C963125E12F8001254D5 /* multitaskingCommon.h */,
+				9092C964125E12F8001254D5 /* Mutex.h */,
+				9092C965125E12F8001254D5 /* Semaphore.h */,
+				9092C966125E12F8001254D5 /* sleep.h */,
+				9092C967125E12F8001254D5 /* Task.h */,
+				9092C968125E12F8001254D5 /* TaskScheduler.h */,
+				9092C969125E12F8001254D5 /* TaskSynchronizer.h */,
+				9092C96A125E12F8001254D5 /* TimeInterval.h */,
+				9092C96B125E12F8001254D5 /* Timer.h */,
+				9092C96C125E12F8001254D5 /* TimeValue.h */,
+				9092C96D125E12F8001254D5 /* UninterruptableSection.h */,
+			);
+			path = multitasking;
+			sourceTree = "<group>";
+		};
+		9092C96F125E12F8001254D5 /* Win32Multitasking */ = {
+			isa = PBXGroup;
+			children = (
+				9092C970125E12F8001254D5 /* IntertaskBroadcastEvent.cpp */,
+				9092C971125E12F8001254D5 /* IntertaskBroadcastEvent.h */,
+				9092C972125E12F8001254D5 /* IntertaskEvent.cpp */,
+				9092C973125E12F8001254D5 /* IntertaskEvent.h */,
+				9092C974125E12F8001254D5 /* IntertaskQueue.cpp */,
+				9092C975125E12F8001254D5 /* IntertaskQueue.h */,
+				9092C976125E12F8001254D5 /* LockedSection.cpp */,
+				9092C977125E12F8001254D5 /* LockedSection.h */,
+				9092C978125E12F8001254D5 /* MemberTask.h */,
+				9092C979125E12F8001254D5 /* Mutex.cpp */,
+				9092C97A125E12F8001254D5 /* Mutex.h */,
+				9092C97B125E12F8001254D5 /* Semaphore.cpp */,
+				9092C97C125E12F8001254D5 /* Semaphore.h */,
+				9092C97D125E12F8001254D5 /* Task.cpp */,
+				9092C97E125E12F8001254D5 /* Task.h */,
+				9092C97F125E12F8001254D5 /* TaskScheduler.cpp */,
+				9092C980125E12F8001254D5 /* TaskScheduler.h */,
+				9092C981125E12F8001254D5 /* TaskSynchronizer.cpp */,
+				9092C982125E12F8001254D5 /* TaskSynchronizer.h */,
+				9092C983125E12F8001254D5 /* TimeValue.h */,
+			);
+			path = Win32Multitasking;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* MSOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "MSOS" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSOS;
+			productInstallPath = "$(HOME)/bin";
+			productName = MSOS;
+			productReference = 8DD76F6C0486A84900D96B5E /* MSOS */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "MSOS" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* MSOS */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* MSOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F650486A84900D96B5E /* main.cpp in Sources */,
+				9092C984125E12F8001254D5 /* LinkedList.cpp in Sources */,
+				9092C985125E12F8001254D5 /* switchTasks.cpp in Sources */,
+				9092C98B125E12F8001254D5 /* BlockedTaskTimeout.cpp in Sources */,
+				9092C98C125E12F8001254D5 /* IdleTask.cpp in Sources */,
+				9092C98D125E12F8001254D5 /* IntertaskBroadcastEvent.cpp in Sources */,
+				9092C98E125E12F8001254D5 /* IntertaskCondition.cpp in Sources */,
+				9092C98F125E12F8001254D5 /* IntertaskEvent.cpp in Sources */,
+				9092C990125E12F8001254D5 /* IntertaskQueue.cpp in Sources */,
+				9092C991125E12F8001254D5 /* LockedSection.cpp in Sources */,
+				9092C992125E12F8001254D5 /* Mutex.cpp in Sources */,
+				9092C993125E12F8001254D5 /* PriorityBoost.cpp in Sources */,
+				9092C994125E12F8001254D5 /* rtosTest.cpp in Sources */,
+				9092C995125E12F8001254D5 /* Semaphore.cpp in Sources */,
+				9092C996125E12F8001254D5 /* Task.cpp in Sources */,
+				9092C997125E12F8001254D5 /* TaskBlocker.cpp in Sources */,
+				9092C998125E12F8001254D5 /* TaskGroup.cpp in Sources */,
+				9092C999125E12F8001254D5 /* TaskScheduler.cpp in Sources */,
+				9092C99A125E12F8001254D5 /* TaskSynchronizer.cpp in Sources */,
+				9092C99B125E12F8001254D5 /* TimeInterval.cpp in Sources */,
+				9092C99C125E12F8001254D5 /* Timer.cpp in Sources */,
+				9092C99D125E12F8001254D5 /* UninterruptableSection.cpp in Sources */,
+				9092C99E125E12F8001254D5 /* UnpreemptableSection.cpp in Sources */,
+				90F426F812653AE900D8D5F1 /* PriorityMutex.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = __i386__;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = MSOS;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PREPROCESSOR_DEFINITIONS = __i386__;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = MSOS;
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "MSOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "MSOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
