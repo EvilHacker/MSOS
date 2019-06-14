@@ -1,0 +1,24 @@
+
+BootBlock 0x04000000
+{
+	startup +0
+	{
+		BootBlockEntry.o (+RO, +First)
+		BootBlockStartup.o (+RO)
+		AddressTranslationTableBuilder* (+RO)
+		__cpp_initialise.o (+RO)
+		__cpp_finalise.o (+RO)
+		* (C$$pi_ctorvec)
+		* (C$$pi_dtorvec)
+	}
+	
+	sdramInit 0x700000
+	{
+		* (+RO, +RW)
+	}
+
+	sdramZero +0
+	{
+		* (+ZI)
+	}
+}

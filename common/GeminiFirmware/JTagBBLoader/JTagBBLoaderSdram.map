@@ -1,0 +1,24 @@
+
+JTagBBLoader 0x00400000 ; SDRAM address (for debugging)
+{
+	startup +0
+	{
+		JTagBBLoaderEntry.o (+RO, +First)
+		JTagBBLoaderStartup.o (+RO)
+		JTagBBLoaderMain.o (+RO)
+		__cpp_initialise.o (+RO)
+		__cpp_finalise.o (+RO)
+		* (C$$pi_ctorvec)
+		* (C$$pi_dtorvec)
+	}
+	
+	sdramInit 0x40
+	{
+		* (+RO, +RW)
+	}
+
+	sdramZero +0
+	{
+		* (+ZI)
+	}
+}
